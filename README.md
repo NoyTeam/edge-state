@@ -1,5 +1,11 @@
 # Edge State
 
+```
+curl -O https://github.com/NoyTeam/edge-state/releases/download/1.0/install.sh && bash install.sh
+```
+
+-------
+
 - POST `/noyedge/ping`
 
 | Key | Value |
