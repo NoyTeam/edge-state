@@ -38,6 +38,8 @@ func cacheTraffic() {
 	if d-nowDownload != 0 && u-nowUpload != 0 {
 		ct.Downloads = append(ct.Downloads, d-nowDownload)
 		ct.Uploads = append(ct.Uploads, u-nowUpload)
+		nowDownload = d
+		nowUpload = u
 	}
 	if len(ct.Downloads) > 5 {
 		ct.Downloads = ct.Downloads[len(ct.Downloads)-5:]
