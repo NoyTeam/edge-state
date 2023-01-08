@@ -1,7 +1,7 @@
 # Edge State
 
 ```
-curl -O https://github.com/NoyTeam/edge-state/releases/download/1.0/install.sh && bash install.sh
+wget https://github.com/NoyTeam/edge-state/releases/download/1.0/install.sh && bash install.sh
 ```
 
 -------

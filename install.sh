@@ -1,7 +1,7 @@
 #!/bin/bash
-apt install wget
 wget https://github.com/ArsFy/edge-state/releases/download/1.0/edge-state
 chmod 777 edge-state
+pwd = $(pwd)
 cat > /etc/systemd/system/edge-state.service <<EOF
 [Unit]
 Description=edge-state
